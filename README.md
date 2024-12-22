@@ -32,7 +32,7 @@ This is a simple PHP script that automates the process of connecting to the Sabi
 3. Ensure your PHP installation has cURL enabled. You can check this by running:
 
    ```bash
-php -m | grep curl
+   php -m | grep curl
    ```
 
 4. Run the script:
