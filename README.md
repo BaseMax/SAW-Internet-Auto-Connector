@@ -23,22 +23,23 @@ This is a simple PHP script that automates the process of connecting to the Sabi
    cd SAW-Internet-Auto-Connector
    ```
 
-Make the Bash script executable:
+2. Make the Bash script executable:
 
-  ```bash
-  chmod +x run_script.sh
-  ```
-Ensure your PHP installation has cURL enabled. You can check this by running:
+   ```bash
+   chmod +x run_script.sh
+   ```
 
-```bash
+3. Ensure your PHP installation has cURL enabled. You can check this by running:
+
+   ```bash
 php -m | grep curl
-```
+   ```
 
-Run the script:
+4. Run the script:
 
-```bash
-./run_script.sh
-```
+   ```bash
+   ./run_script.sh
+   ```
 
 This will start the infinite loop, running the connect.php script every 20 seconds.
 
